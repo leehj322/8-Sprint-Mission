@@ -17,7 +17,7 @@ const colors = {
   mainBgColor: "#cfe5ff",
 };
 
-const deviceSizes = {
+export const deviceSizes = {
   MOBILE_MIN_WIDTH: 375,
   MOBILE_MAX_WIDTH: 767,
   TABLET_MIN_WIDTH: 768,
@@ -28,7 +28,7 @@ const deviceSizes = {
 const device = {
   mobile: `screen and (min-width: ${deviceSizes.MOBILE_MIN_WIDTH}px) and (max-width: ${deviceSizes.MOBILE_MAX_WIDTH}px)`,
   tablet: `screen and (min-width: ${deviceSizes.TABLET_MIN_WIDTH}px) and (max-width: ${deviceSizes.TABLET_MAX_WIDTH}px)`,
-  desktop: `screen and (min-width: ${deviceSizes.DESKTOP_MIN_WIDTH})px)`,
+  desktop: `screen and (min-width: ${deviceSizes.DESKTOP_MIN_WIDTH}px)`,
 };
 
 type ColorsType = typeof colors;
